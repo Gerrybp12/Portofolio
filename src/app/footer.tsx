@@ -1,6 +1,5 @@
 'use client'
 import React from 'react';
-import { BiColorFill } from 'react-icons/bi';
 import { CiMail } from 'react-icons/ci';
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaLine } from 'react-icons/fa';
 

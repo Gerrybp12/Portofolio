@@ -1,5 +1,4 @@
 'use client'
-import React, { useEffect } from "react";
 import { TbWorldWww } from "react-icons/tb";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
