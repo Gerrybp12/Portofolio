@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* To change the inactive dots color */
+.react-multi-carousel-dot button {
+    background-color: gray;
+  }
+
+  /* To change the active dot color */
+  .react-multi-carousel-dot--active button {
+    background-color: white;
+  }

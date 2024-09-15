@@ -100,10 +100,10 @@ const About = () => {
             <div className="flex justify-center">
                 <div className="mt-[10rem] text-center 500 max-w-[85rem] min-h-[100rem]">
                     <h1 className="p-10 font-poppins italic font-bold text-7xl bg-clip-text text-transparent bg-gradient-to-r from-[#FFE767] to-[#B29393]">Projects</h1>
-                    <Carousel responsive={responsive}>
+                    <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/tenaga.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center mb-10">
+                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center ">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Tenaga
@@ -143,10 +143,10 @@ const About = () => {
                     <br />
                     <br />
                     <br />
-                    <Carousel responsive={responsive}>
+                    <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/slime.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center mb-10">
+                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Slime
@@ -185,10 +185,10 @@ const About = () => {
                     <br />
                     <br />
                     <br />
-                    <Carousel responsive={responsive}>
+                    <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/portofolio.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center mb-[10rem]">
+                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[700px]:text-9xl text-[15vw] text-white">
                                 Portofolio
@@ -217,6 +217,11 @@ const About = () => {
                         </div>
                     </div>
                     </Carousel>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
         </div></>
     );
