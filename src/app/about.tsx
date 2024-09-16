@@ -28,7 +28,7 @@ const About = () => {
     const academicTimeline = [
         {
           title: "MIN 09 Petukangan Selatan",
-          years: "2015 - 2018",
+          years: "2012 - 2018",
           imageUrl: "./min_09.jpg",
           web: "",
         },
