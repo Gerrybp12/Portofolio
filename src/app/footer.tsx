@@ -9,13 +9,13 @@ const Footer = () => {
     return (
         <div className="flex flex-col justify-center text-center items-center bg-black bg-opacity-50">
             <h1 className="mt-10 font-poppins font-medium text-[10vw] md:text-7xl text-white opacity-50">Contact Me</h1>
-            <h1 className="font-poppins font-light text-[1rem] text-white opacity-70 mb-7">I’d love to hear from you. Here’s how you can get in touch with me:</h1>
-            <div className='mb-10 justify-between flex flex-row bg-black'>
+            <h1 className="font-poppins font-light text-[1rem] text-white opacity-70 mb-7 mx-10">I’d love to hear from you. Here’s how you can get in touch with me:</h1>
+            <div className='mb-10 justify-between flex md:flex-row flex-col '>
             <div className='mx-10'>
             <div className='flex flex-row my-2'>
                 <CiMail style={logoStyle} />
                 <a
-                className='text-white mx-2 font-poppins md:mt-0 mt-1     text-[2vw] md:text-[1rem] opacity-70 hover:text-[#FC7E00] hover:opacity-100'
+                className='text-white mx-2 font-poppins md:mt-0 mt-1 text-[1rem] opacity-70 hover:text-[#FC7E00] hover:opacity-100'
                 href='mailto:gerry.bimaputra@gmail.com'
                 >gerry.bimaputra@gmail.com</a>
             </div>
