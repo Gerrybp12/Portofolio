@@ -3,7 +3,7 @@ import React from 'react';
 import { CiMail } from 'react-icons/ci';
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaLine } from 'react-icons/fa';
 
-const logoStyle = {color: "white", fontSize: "1.5em"};
+const logoStyle = {color: "white", fontSize: "1.5em", opacity: "0.7"};
 
 const Footer = () => {
     return (
@@ -23,14 +23,14 @@ const Footer = () => {
                 <FaLinkedin style={logoStyle} />
                 <a
                 className='text-white mx-2 font-poppins text-[1rem] opacity-70 hover:text-[#FC7E00] hover:opacity-100'
-                href='https://www.linkedin.com/in/gerry-bima-putra-16a03a324/'
+                href='  /'
                 >LinkedIn</a>
             </div>
             <div className='flex flex-row my-2'>
                 <FaGithub style={logoStyle} />
                 <a
                 className='text-white mx-2 font-poppins text-[1rem] opacity-70 hover:text-[#FC7E00] hover:opacity-100'
-                href='https://github.com/Gerrybp12'
+                href='  '
                 >GitHub</a>
             </div>
             </div>

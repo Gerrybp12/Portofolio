@@ -103,7 +103,7 @@ const About = () => {
                     <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/tenaga.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center ">
+                     className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center ">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Tenaga
@@ -125,11 +125,11 @@ const About = () => {
                     </div>
                     <div
                     style={{ backgroundImage: 'url("/tenaga_brosur.jpg")' }}
-                    className=" bg-cover bg-center h-screen rounded-[3rem]">
+                    className=" bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem]">
                     </div>
                     <div
                     style={{ backgroundImage: 'url("/gorilla.jpg")' }}
-                    className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
+                    className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Gorilla
@@ -146,7 +146,7 @@ const About = () => {
                     <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/slime.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
+                     className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Slime
@@ -167,11 +167,11 @@ const About = () => {
                     </div>
                     <div
                     style={{ backgroundImage: 'url("/slime_poster.jpg")' }}
-                    className=" bg-cover bg-center h-screen rounded-[3rem]">
+                    className=" bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem]">
                     </div>
                     <div
                     style={{ backgroundImage: 'url("/gorilla.jpg")' }}
-                    className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
+                    className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Gorilla
@@ -188,7 +188,7 @@ const About = () => {
                     <Carousel responsive={responsive} showDots={true}>
                     <div
                      style={{ backgroundImage: 'url("/portofolio.jpg")' }}
-                     className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
+                     className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[700px]:text-9xl text-[15vw] text-white">
                                 Portofolio
@@ -209,7 +209,7 @@ const About = () => {
                     </div>
                     <div
                     style={{ backgroundImage: 'url("/gerry.jpg")' }}
-                    className="flex bg-cover bg-center h-screen rounded-[3rem] justify-center items-center">
+                    className="flex bg-cover bg-center h-screen max-h-[60rem] rounded-[3rem] justify-center items-center">
                         <div>
                             <h1 className="font-poppins font-extrabold min-[600px]:text-9xl text-[20vw] text-white">
                                 Gerry
