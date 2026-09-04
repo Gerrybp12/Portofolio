@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="flex flex-col justify-center text-center items-center bg-black bg-opacity-50">
             <h1 className="mt-10 font-poppins font-medium text-[10vw] md:text-7xl text-white opacity-50">Contact Me</h1>
             <h1 className="font-poppins font-light text-[1rem] text-white opacity-70 mb-7 mx-10">I’d love to hear from you. Here’s how you can get in touch with me:</h1>
-            <div className='mb-10 justify-between flex md:flex-row flex-col '>
-            <div className='mx-10'>
+            <div className='mb-10 flex w-full max-w-md flex-col justify-between gap-4 px-4 md:max-w-none md:flex-row md:px-0'>
+            <div className='mx-0 md:mx-10'>
             <div className='flex flex-row my-2'>
                 <CiMail style={logoStyle} />
                 <a
@@ -34,7 +34,7 @@ const Footer = () => {
                 >GitHub</a>
             </div>
             </div>
-            <div className='mx-10'>
+            <div className='mx-0 md:mx-10'>
             <div className='flex flex-row my-2'>
                 <FaInstagram style={logoStyle} />
                 <a
